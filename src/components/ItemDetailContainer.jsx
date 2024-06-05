@@ -1,20 +1,26 @@
-import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useState } from 'react'
+import { useParams } from 'react-router-dom';
 import data from "../data/Productos.json";
+import { useEffect } from 'react';
+import { ItemDetail } from './ItemDetail';
 
-const ItemDetailContainer = () => {
+
+export const ItemDetailContainer = () => {
 
     let { itemId } = useParams();
+
     let [producto, setProducto] = useState();
 
     useEffect(() => {
-        console.log(itemId);
+
+        console.log(itemId)
         setProducto(data.find((prod) => prod.id === parseInt(itemId)));
-    }, [itemId]); 
 
-    return (
-        <div>{ producto ? producto.nombre : "Cargando ..."}</div>
-    );
+    }, [itemId])
+    
+
+
+  return (
+    <div>{producto ? <ItemDetail producto={producto}/> : "Cargando..." }</div>
+  )
 }
-
-export default ItemDetailContainer;
