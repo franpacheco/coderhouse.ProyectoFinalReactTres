@@ -1,0 +1,124 @@
+*{
+
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    
+
+}
+
+.container{
+
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+
+}
+
+
+/*:root{
+
+    color-scheme: light dark;
+
+}*/
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(255, 170, 252);
+
+}
+
+.link-titulo{
+
+    background-color: rgb(246, 34, 246);
+    color: black;
+    text-decoration: none;
+    
+}
+.nav-menu{
+
+    display: flex;   
+    list-style-type: none;
+    gap: 3rem
+
+}
+
+.nav-link{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-link.active{
+
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.products-container{
+
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+
+}
+
+.oscuro{
+
+    background-color: black !important;
+
+}
+
+.item-list-container{
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.productos-grilla{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+}
+
+.producto{
+
+    background-color: pink;
+    border-radius: .5rem;
+    padding: 1rem;
+
+}
+
+.pokemons
+{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer{
+
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.p-footer{
+
+    color: white;
+
+}

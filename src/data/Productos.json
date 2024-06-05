@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "nombre": "Esmalte de Uñas Rojo",
+      "precio": 5.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Esmalte de uñas de color rojo brillante, larga duración.",
+      "categoria": {
+          "id": "esmaltesconstruccion" ,
+          "nombre": "Esmaltes y Construccion"
+
+        } 
+    },
+    {
+      "id": 2,
+      "nombre": "Torno para Uñas",
+      "precio": 49.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Torno profesional para uñas con múltiples velocidades.",
+      "categoria": {
+          "id": "cabinasherramientas" ,
+          "nombre": "Cabinas y Herramientas"
+
+        } 
+    },
+    {
+      "id": 3,
+      "nombre": "Cabina de Secado LED",
+      "precio": 79.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Cabina de secado LED para uñas de gel y esmalte permanente.",
+      "categoria": {
+          "id": "cabinasherramientas" ,
+          "nombre": "Cabinas y Herramientas"
+
+        } 
+    },
+    {
+      "id": 4,
+      "nombre": "Set de Pinceles para Nail Art",
+      "precio": 12.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Set de pinceles de alta calidad para decoración de uñas.",
+      "categoria": {
+          "id": "cabinasherramientas" ,
+          "nombre": "Cabinas y Herramientas"
+
+        } 
+    },
+    {
+      "id": 5,
+      "nombre": "Lima de Uñas Eléctrica",
+      "precio": 29.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Lima de uñas eléctrica con cabezales intercambiables.",
+      "categoria": {
+          "id": "cabinasherramientas" ,
+          "nombre": "Cabinas y Herramientas"
+
+        } 
+    },
+    {
+      "id": 6,
+      "nombre": "Base Coat y Top Coat",
+      "precio": 9.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Pack de base coat y top coat para uñas de gel.",
+      "categoria": {
+          "id": "esmaltesconstruccion" ,
+          "nombre": "Esmaltes y Construccion"
+
+        } 
+    },
+    {
+      "id": 7,
+      "nombre": "Kit de Decoración de Uñas",
+      "precio": 19.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Kit completo para decorar uñas con gemas, pegatinas y más.",
+      "categoria": {
+          "id": "cabinasherramientas" ,
+          "nombre": "Cabinas y Herramientas"
+
+        } 
+    },
+    {
+      "id": 8,
+      "nombre": "Removedor de Esmalte en Gel",
+      "precio": 7.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Removedor de esmalte en gel rápido y efectivo.",
+      "categoria": {
+          "id":"esmaltesconstruccion" ,
+          "nombre": "Esmaltes y Construccion"
+
+        } 
+    },
+    {
+      "id": 9,
+      "nombre": "Aceite para Cutículas",
+      "precio": 6.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Aceite hidratante para el cuidado de las cutículas.",
+      "categoria": {
+          "id": "esmaltesconstruccion" ,
+          "nombre": "Esmaltes y Construccion"
+
+        } 
+    },
+    {
+      "id": 10,
+      "nombre": "Acrílicos para Uñas",
+      "precio": 24.99,
+      "imagen": "https://placeholder.pics/svg/150",
+      "descripcion": "Kit de acrílicos para uñas, incluye polvo y líquido.",
+      "categoria": {
+          "id": "esmaltesconstruccion" ,
+          "nombre": "Esmaltes y Construccion"
+
+        } 
+    }
+  ]
+  
