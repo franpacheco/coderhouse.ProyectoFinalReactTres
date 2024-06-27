@@ -34,13 +34,13 @@
 
 }
 
-.link-titulo{
+/*.link-titulo{
 
     background-color: rgb(246, 34, 246);
     color: black;
     text-decoration: none;
     
-}
+}*/
 .nav-menu{
 
     display: flex;   
@@ -129,4 +129,11 @@
     margin-top: 2rem;
     margin-bottom: 1rem ;
 
+}
+
+.borrarBtn
+{
+    background-color: rosybrown;
+    text-decoration: none;
+    border-radius: 50px;
 }
